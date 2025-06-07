@@ -59,7 +59,7 @@ const Amenities = () => {
           {amenities.map((amenity, index) => (
             <div key={index} className="text-center bg-gray-50 rounded-lg p-6 hover:bg-blue-50 transition-colors duration-200">
               <div className="text-4xl mb-4">{amenity.icon}</div>
-              <h3 className="text-lg font-semibold text-navy mb-2">{amenity.title}</h3>
+              <h3 className="text-lg font-semibold text-black mb-2">{amenity.title}</h3>
               <p className="text-gray-600">{amenity.description}</p>
             </div>
           ))}
