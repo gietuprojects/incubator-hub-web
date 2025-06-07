@@ -1,0 +1,36 @@
+
+/* KIPM Innovators Foundation - Responsive Design */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .section-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-logo {
+        max-width: 300px;
+        margin-top: 2rem;
+    }
+    
+    .contact-card .card-body {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .stat-item h3 {
+        font-size: 2rem;
+    }
+}

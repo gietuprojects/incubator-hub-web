@@ -1,0 +1,294 @@
+
+/* KIPM Innovators Foundation - Components */
+
+/* Navigation */
+.navbar {
+    background-color: var(--navy-blue) !important;
+    padding: 1rem 0;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand {
+    font-family: 'Mokoto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--white) !important;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Mokoto', sans-serif;
+    color: var(--white) !important;
+    font-weight: 500;
+    margin: 0 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--bright-orange) !important;
+}
+
+/* Buttons */
+.btn-primary {
+    font-family: 'Mokoto', sans-serif;
+    background-color: var(--crimson-red);
+    border-color: var(--crimson-red);
+    padding: 12px 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #c8243e;
+    border-color: #c8243e;
+    transform: translateY(-2px);
+}
+
+.btn-outline-light {
+    font-family: 'Mokoto', sans-serif;
+    border-color: var(--white);
+    color: var(--white);
+    padding: 12px 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-light:hover {
+    background-color: var(--white);
+    color: var(--navy-blue);
+    transform: translateY(-2px);
+}
+
+.btn-warning {
+    font-family: 'Mokoto', sans-serif;
+    background-color: var(--bright-orange);
+    border-color: var(--bright-orange);
+    color: var(--white);
+}
+
+.btn-warning:hover {
+    background-color: #d99200;
+    border-color: #d99200;
+    color: var(--white);
+}
+
+/* Filter Buttons */
+.filter-buttons {
+    margin-bottom: 2rem;
+}
+
+.btn-filter {
+    font-family: 'Mokoto', sans-serif;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    color: var(--white);
+    margin: 0.25rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.btn-filter:hover,
+.btn-filter.active {
+    background-color: var(--crimson-red);
+    border-color: var(--crimson-red);
+    color: var(--white);
+}
+
+/* Cards */
+.card {
+    font-family: 'Mokoto', sans-serif;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-family: 'Mokoto', sans-serif;
+    font-weight: 600;
+}
+
+.card-text {
+    font-family: 'Mokoto', sans-serif;
+}
+
+/* Startup Cards */
+.startup-card {
+    height: 100%;
+}
+
+.startup-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.founders {
+    font-family: 'Mokoto', sans-serif;
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+/* Course Cards */
+.course-card {
+    border-left: 4px solid var(--crimson-red);
+}
+
+.course-category {
+    font-family: 'Mokoto', sans-serif;
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.course-details p {
+    font-family: 'Mokoto', sans-serif;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+/* Blog Cards */
+.blog-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.blog-category {
+    font-family: 'Mokoto', sans-serif;
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.blog-meta {
+    font-family: 'Mokoto', sans-serif;
+    margin-top: 1rem;
+}
+
+/* Lab Cards */
+.lab-card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.lab-features {
+    font-family: 'Mokoto', sans-serif;
+    list-style: none;
+    padding: 0;
+}
+
+.lab-features li {
+    padding: 0.25rem 0;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.lab-features li:before {
+    content: "•";
+    color: var(--bright-orange);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+/* Amenity Cards */
+.amenity-card {
+    font-family: 'Mokoto', sans-serif;
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.amenity-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+}
+
+.amenity-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* Contact Form */
+.contact-card {
+    font-family: 'Mokoto', sans-serif;
+    background-color: var(--white);
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card .card-body {
+    padding: 3rem;
+}
+
+.form-label {
+    font-family: 'Mokoto', sans-serif;
+    color: var(--navy-blue);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.form-control,
+.form-select {
+    font-family: 'Mokoto', sans-serif;
+    border: 2px solid #e9ecef;
+    border-radius: 8px;
+    padding: 0.75rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--bright-orange);
+    box-shadow: 0 0 0 0.2rem rgba(244, 163, 0, 0.25);
+}
+
+.contact-info {
+    margin-bottom: 2rem;
+}
+
+.contact-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+.footer-brand {
+    font-family: 'Mokoto', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    height: 30px;
+    width: auto;
+}
+
+.social-links a {
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: var(--bright-orange) !important;
+}
