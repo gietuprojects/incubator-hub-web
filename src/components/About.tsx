@@ -6,8 +6,8 @@ const About = () => {
     <section id="about" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">About Our Center</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <h2 className="section-title">About Our Center</h2>
+          <p className="section-subtitle">
             Driving innovation and entrepreneurship through world-class facilities and mentorship
           </p>
         </div>
@@ -23,7 +23,7 @@ const About = () => {
           
           <div className="space-y-6">
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h3>
+              <h3 className="text-2xl font-bold text-navy mb-4">Our Vision</h3>
               <p className="text-gray-600 leading-relaxed">
                 To be the premier hub for technological innovation and entrepreneurship, 
                 fostering a ecosystem where ideas transform into impactful solutions that 
@@ -32,7 +32,7 @@ const About = () => {
             </div>
             
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
+              <h3 className="text-2xl font-bold text-navy mb-4">Our Mission</h3>
               <p className="text-gray-600 leading-relaxed">
                 We empower students, entrepreneurs, and innovators by providing access to 
                 cutting-edge technology, expert mentorship, and comprehensive support systems 
@@ -41,7 +41,7 @@ const About = () => {
             </div>
             
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Impact</h3>
+              <h3 className="text-2xl font-bold text-navy mb-4">Our Impact</h3>
               <div className="grid grid-cols-2 gap-4">
                 <div className="text-center p-4 bg-blue-50 rounded-lg">
                   <div className="text-2xl font-bold text-blue-600">₹2.5Cr</div>
