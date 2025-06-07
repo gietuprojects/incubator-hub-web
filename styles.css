@@ -19,7 +19,7 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Mokoto', sans-serif;
     background-color: var(--navy-blue);
     color: var(--white);
     line-height: 1.6;
@@ -32,6 +32,7 @@ html {
 
 /* Typography */
 .section-title {
+    font-family: 'Mokoto', sans-serif;
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 1rem;
@@ -39,6 +40,7 @@ html {
 }
 
 .section-subtitle {
+    font-family: 'Mokoto', sans-serif;
     font-size: 1.2rem;
     font-weight: 400;
     color: #666;
@@ -62,7 +64,9 @@ html {
 }
 
 .navbar-brand {
+    font-family: 'Mokoto', sans-serif;
     font-size: 1.5rem;
+    font-weight: 700;
     color: var(--white) !important;
     display: flex;
     align-items: center;
@@ -74,6 +78,7 @@ html {
 }
 
 .navbar-nav .nav-link {
+    font-family: 'Mokoto', sans-serif;
     color: var(--white) !important;
     font-weight: 500;
     margin: 0 0.5rem;
@@ -92,6 +97,7 @@ html {
 }
 
 .hero-title {
+    font-family: 'Mokoto', sans-serif;
     font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
@@ -103,6 +109,7 @@ html {
 }
 
 .hero-subtitle {
+    font-family: 'Mokoto', sans-serif;
     font-size: 1.3rem;
     color: rgba(255, 255, 255, 0.9);
     margin-bottom: 2rem;
@@ -119,18 +126,21 @@ html {
 }
 
 .stat-item h3 {
+    font-family: 'Mokoto', sans-serif;
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
 }
 
 .stat-item p {
+    font-family: 'Mokoto', sans-serif;
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.8);
 }
 
 /* Buttons */
 .btn-primary {
+    font-family: 'Mokoto', sans-serif;
     background-color: var(--crimson-red);
     border-color: var(--crimson-red);
     padding: 12px 30px;
@@ -145,6 +155,7 @@ html {
 }
 
 .btn-outline-light {
+    font-family: 'Mokoto', sans-serif;
     border-color: var(--white);
     color: var(--white);
     padding: 12px 30px;
@@ -159,6 +170,7 @@ html {
 }
 
 .btn-warning {
+    font-family: 'Mokoto', sans-serif;
     background-color: var(--bright-orange);
     border-color: var(--bright-orange);
     color: var(--white);
@@ -189,6 +201,7 @@ section {
 
 /* Cards */
 .card {
+    font-family: 'Mokoto', sans-serif;
     border: none;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -198,6 +211,15 @@ section {
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-family: 'Mokoto', sans-serif;
+    font-weight: 600;
+}
+
+.card-text {
+    font-family: 'Mokoto', sans-serif;
 }
 
 /* Startup Cards */
@@ -211,6 +233,7 @@ section {
 }
 
 .founders {
+    font-family: 'Mokoto', sans-serif;
     font-size: 0.9rem;
     color: #666;
     margin-bottom: 1rem;
@@ -222,6 +245,7 @@ section {
 }
 
 .btn-filter {
+    font-family: 'Mokoto', sans-serif;
     background-color: rgba(255, 255, 255, 0.1);
     border: 2px solid rgba(255, 255, 255, 0.3);
     color: var(--white);
@@ -245,6 +269,7 @@ section {
 }
 
 .lab-features {
+    font-family: 'Mokoto', sans-serif;
     list-style: none;
     padding: 0;
 }
@@ -265,6 +290,7 @@ section {
 
 /* Coworking Section */
 .feature-list {
+    font-family: 'Mokoto', sans-serif;
     list-style: none;
     padding: 0;
 }
@@ -275,6 +301,7 @@ section {
 }
 
 .pricing-card {
+    font-family: 'Mokoto', sans-serif;
     background-color: rgba(255, 255, 255, 0.1);
     padding: 1.5rem;
     border-radius: 10px;
@@ -283,6 +310,7 @@ section {
 }
 
 .price {
+    font-family: 'Mokoto', sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
     margin: 0.5rem 0;
@@ -290,6 +318,7 @@ section {
 
 /* Amenities */
 .amenity-card {
+    font-family: 'Mokoto', sans-serif;
     background-color: var(--white);
     padding: 2rem;
     border-radius: 15px;
@@ -314,6 +343,7 @@ section {
 }
 
 .course-category {
+    font-family: 'Mokoto', sans-serif;
     display: inline-block;
     padding: 0.25rem 0.75rem;
     border-radius: 15px;
@@ -324,6 +354,7 @@ section {
 }
 
 .course-details p {
+    font-family: 'Mokoto', sans-serif;
     margin-bottom: 0.5rem;
     font-size: 0.9rem;
 }
@@ -335,6 +366,7 @@ section {
 }
 
 .blog-category {
+    font-family: 'Mokoto', sans-serif;
     display: inline-block;
     font-size: 0.8rem;
     font-weight: 600;
@@ -342,11 +374,13 @@ section {
 }
 
 .blog-meta {
+    font-family: 'Mokoto', sans-serif;
     margin-top: 1rem;
 }
 
 /* Contact Form */
 .contact-card {
+    font-family: 'Mokoto', sans-serif;
     background-color: var(--white);
     border-radius: 15px;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
@@ -357,6 +391,7 @@ section {
 }
 
 .form-label {
+    font-family: 'Mokoto', sans-serif;
     color: var(--navy-blue);
     font-weight: 600;
     margin-bottom: 0.5rem;
@@ -364,6 +399,7 @@ section {
 
 .form-control,
 .form-select {
+    font-family: 'Mokoto', sans-serif;
     border: 2px solid #e9ecef;
     border-radius: 8px;
     padding: 0.75rem;
@@ -387,6 +423,7 @@ section {
 
 /* Footer */
 .footer-brand {
+    font-family: 'Mokoto', sans-serif;
     display: flex;
     align-items: center;
 }
