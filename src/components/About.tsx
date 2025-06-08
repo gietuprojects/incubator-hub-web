@@ -24,9 +24,9 @@ const About = () => {
           <div className="space-y-6">
             <div>
               <h3 className="text-2xl font-bold text-black mb-4">Our Vision</h3>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-black leading-relaxed">
                 To be the premier hub for technological innovation and entrepreneurship, 
-                fostering a ecosystem where ideas transform into impactful solutions that 
+                fostering an ecosystem where ideas transform into impactful solutions that 
                 benefit society and drive economic growth.
               </p>
             </div>
